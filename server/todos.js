@@ -6,16 +6,25 @@ const db = {}
 const defaultData = {
   todos: [
     {
-      id: 'b1yyu6gb',
-      text: 'Some todo here 1',
+      id: "1",
+      employee_name: "Tiger Nixon",
+      title: "Brunch this weekend?",
+      profile_image: "https://material-ui.com/static/images/avatar/1.jpg",
+      text: "I'll be in your neighborhood doing errands this",
     },
     {
-      id: 'b1yyu3gb',
-      text: 'Some todo here 2',
+      id: "2",
+      employee_name: "Garrett Winters",
+      title: "Summer BBQ",
+      profile_image: "https://material-ui.com/static/images/avatar/2.jpg",
+      text: "I'll be in your neighborhood doing errands this",
     },
     {
-      id: 'b1yyu6fb',
-      text: 'Some todo here 3',
+      id: "3",
+      employee_name: "Ashton Cox",
+      title: "Oui Oui",
+      profile_image: "https://material-ui.com/static/images/avatar/3.jpg",
+      text: "I'll be in your neighborhood doing errands this",
     }
   ]
 }

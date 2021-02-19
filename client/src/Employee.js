@@ -1,4 +1,5 @@
 import React from "react";
+import * as API from './utils/API';
 
 import styles from './Employee.module.css'
 
@@ -25,6 +26,7 @@ const users = [
     text: "I'll be in your neighborhood doing errands this",
   }
 ];
+
 class Employee extends React.Component {
   render() {
     return (
@@ -32,7 +34,7 @@ class Employee extends React.Component {
         <h1>List of Employee</h1>
         <ul className={styles.Employees}>
           {users.map((user) => {
-            return <li className={styles.Employee}>
+            return <li className={styles.Employee} key={user.id}>
               <div className={styles.Image}>
                 <img src={user.profile_image} alt="Employee Name" />
               </div>
