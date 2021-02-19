@@ -26,8 +26,6 @@ const users = [
   }
 ];
 class Employee extends React.Component {
-  // TODO:: Call this REST API to get list of employees
-  // http://dummy.restapiexample.com/api/v1/employees
   render() {
     return (
       <main className={styles.main}>
