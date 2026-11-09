@@ -33,9 +33,9 @@ export default function EmployeeList() {
       <ul className={styles.Employees}>
         {users.map((user) => {
           return (
-            <li className={styles.Employee}>
+            <li className={styles.Employee} key={user.id}>
               <div className={styles.Image}>
-                <img src={user.profile_image} alt="Employee Name" />
+                <img src={user.profile_image} alt={user.employee_name} />
               </div>
               <div>
                 <span>{user.employee_name}</span>
