@@ -7,8 +7,6 @@
 body {
   margin: 0;
   font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
-  background: #f4f4f4;
-  color: rgba(0, 0, 0, 0.87);
 }
 
 nav {

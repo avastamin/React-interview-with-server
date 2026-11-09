@@ -1,0 +1,28 @@
+:root {
+  --bg: #f4f4f4;
+  --fg: rgba(0, 0, 0, 0.87);
+  --link: #1a56db;
+  --switch-track: #cfd8dc;
+  --switch-thumb: #ffffff;
+  --transition: 0.3s;
+}
+
+:root[data-theme='dark'] {
+  --bg: #121212;
+  --fg: rgba(255, 255, 255, 0.92);
+  --link: #8ab4ff;
+  --switch-track: #3949ab;
+  --switch-thumb: #e8eaf6;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  transition:
+    background var(--transition),
+    color var(--transition);
+}
+
+a {
+  color: var(--link);
+}
